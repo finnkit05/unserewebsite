@@ -1,0 +1,212 @@
+html, body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    position: fixed;
+    top: 0%;
+    height: 75px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 150;
+}
+
+.topLogo {
+    position: absolute;
+    height: 75%;
+    z-index: 200;
+    top: 50%;
+    left: 150px;
+    font-size: 30px;
+    color: #FFA50CFF;
+    transform: translate(0%, 0%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.topLogoText1 {
+    position: absolute;
+    right: 30px;
+    transform: translate(0, -50%);
+}
+
+.topLogoText2 {
+    position: absolute;
+    left: 30px;
+    transform: translate(0, -50%);
+
+}
+
+.topLogoImage {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.topOp {
+    position: absolute;
+    transform: translate(0, -50%);
+    z-index: 200;
+    top: 37px;
+    right: 0%;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.topOp a {
+    padding-right: 30px;
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+}
+
+.topOp a:hover {
+    color: #FFA50CFF;
+}
+
+.start {
+    position: relative;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #FFA50CFF;
+    z-index: 1;
+    overflow: clip;
+}
+
+.start-text {
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    right: 0%;
+    z-index: 100;
+    color: #750A00FF;
+    font-size: 100px;
+    text-shadow: 7px 8px #000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.startBg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: 5;
+}
+
+.start-img {
+    position: absolute;
+    bottom: 0;
+    /*height: 78%;*/
+    width: 900px;
+    /* Firefox */
+    left: -moz-calc(70% - 400px);
+    /* WebKit */
+    left: -webkit-calc(70% - 400px);
+    /* Opera */
+    left: -o-calc(70% - 400px);
+    /* Standard */
+    left: calc(70% - 400px);
+    z-index: 90;
+    transform: translate(0, -50%);
+}
+
+.discord {
+    position: relative;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #36393f;
+    z-index: 1;
+    overflow: clip;
+}
+
+.discordText {
+    display: block;
+    position: absolute;
+    /* Firefox */
+    width: -moz-calc(90% - 687px);
+    /* WebKit */
+    width: -webkit-calc(90% - 687px);
+    /* Opera */
+    width: -o-calc(90% - 687px);
+    /* Standard */
+    width: calc(90% - 687px);
+    max-width: 920px;
+    top: 15px;
+    margin: 40px;
+    padding-top: 40px;
+    z-index: 100;
+    color: rgb(226, 226, 226);
+}
+
+.discordText h1 {
+    text-shadow: 7px 8px #000000;
+    padding-bottom: 20px;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.discordText h1 a {
+    margin-right: 50px;
+    color: #005abb;
+    text-decoration: none;
+}
+
+.discordText h1 a:hover {
+    color: #750A00FF;
+}
+
+.discordText p {
+    text-shadow: 2px 2px #000000;
+    padding-top: 30px;
+    font-size: 35px;
+    text-decoration: none;
+    font-family: Bahnschrift Light;
+}
+
+.discordText p b {
+    color: #FFA50CFF;
+    background-color: rgba(255, 177, 41, 0.151);
+}
+
+.discordImg {
+    position: absolute;
+    top: 120px;
+    height: 792px;
+    width: 687px;
+    right: 5%;
+    z-index: 5;
+}
+
+.animate__slideInLeft {
+    animation-name: slideInLeft;
+}
+
+.animate__slideInDown {
+    animation-name: slideInDown;
+}
+
+.animate__animated {
+    animation-fill-mode: both;
+    animation-delay: -0.5s;
+    animation-duration: 2s;
+}
+
+.animate__animated2 {
+    animation-fill-mode: both;
+    animation-delay: 0s;
+    animation-duration: 1.5s;
+}
+
+.animate__animated3 {
+    animation-fill-mode: both;
+    animation-delay: -3.5s;
+    animation-duration: 5s;
+}
